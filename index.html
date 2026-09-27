@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="https://img.icons8.ru/?size=100&id=16479&format=png&color=000000" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinecraftServer</title>
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="menu">
+    <h1>MinecraftServer</h1>
+
+    <button class="burger" aria-label="Меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="link">
+        <a href="#home">Главная</a>
+        <a href="#info">О нас</a>
+        <a href="#social">Соц.Сети</a>
+    </div>
+</div>   
+
+<main class="content" id="home">
+    <div class="slider">
+
+        <div class="slide active">
+            <img class="slide-icon" src="https://img.icons8.ru/?size=100&id=JSUZNgiAiWzV&format=png&color=7fbf5f" alt="Иконка">
+            <div class="slide-text">
+                <h2>Добро пожаловать на сервер!</h2>
+                <p>Играй с друзьями, стройте города, исследуйте бескрайние миры.</p>
+                <p>IP: <strong>play.mineserver.ru</strong></p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img class="slide-icon" src="https://img.icons8.ru/?size=100&id=4V7SQ-e83Jb5&format=png&color=7fbf5f" alt="Иконка">
+            <div class="slide-text">
+                <h2>Уникальные режимы</h2>
+                <p>Выживание, креатив, мини-игры и клановые войны — каждый найдёт своё.</p>
+                <p>Версия: <strong>1.20+</strong></p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img class="slide-icon" src="https://img.icons8.ru/?size=248&id=IMFo3qekhyz3&format=png&color=7fbf5f" alt="Иконка">
+            <div class="slide-text">
+                <h2>Дружное сообщество</h2>
+                <p>Более 5000 игроков онлайн, активный Discord и еженедельные ивенты.</p>
+                <a href="#" class="btn">Начать играть</a>
+            </div>
+        </div>
+
+        <button class="slider-arrow prev" aria-label="Назад">&#10094;</button>
+        <button class="slider-arrow next" aria-label="Вперёд">&#10095;</button>
+
+        <div class="slider-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+    </div>
+</main>
+
+<main class="info" id="info">
+    <h2>Информация</h2>
+
+    <div class="box box-left">
+        <img src="https://img.icons8.ru/?size=128&id=CSAoXh3r4OBW&format=png&color=7fbf5f" alt="Иконка">
+        <p>Мы работаем с 2026 года. Каждый день радуем вас новыми обновлениями и ивентами!</p>
+    </div>
+
+    <div class="box box-right">
+        <p>Наш создатель написал сайт и делает этот сервер лучше каждый день!</p>
+        <img src="https://img.icons8.ru/?size=128&id=M2Tcjlf2I0QR&format=png&color=7fbf5f" alt="Иконка">
+    </div>
+</main>
+
+<footer class="socseti" id="social">
+    <div class="hrefs">
+        <a href="#"><img src="https://img.icons8.ru/?size=32&id=S57J1e0xkbpF&format=png&color=ffffff" alt=""></a>
+        <a href="#"><img src="https://img.icons8.ru/?size=32&id=zdrZ4QdvVaBZ&format=png&color=ffffff" alt=""></a>
+        <a href="#"><img src="https://img.icons8.ru/?size=32&id=1r7Fo5d2b7ri&format=png&color=ffffff" alt=""></a>
+        <a href="#"><img src="https://img.icons8.ru/?size=32&id=13977&format=png&color=ffffff" alt=""></a>
+    </div>
+    <p>MinecraftServer OÜ. Все права защищены. Мы не связаны с Mojang AB или Microsoft.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
