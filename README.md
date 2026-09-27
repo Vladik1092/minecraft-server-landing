@@ -2,9 +2,7 @@
 
 Одностраничный сайт-визитка для Minecraft-сервера. Адаптивный, с живым анимированным фоном и слайдером.
 
-<img width="3840" height="3062" alt="_C__Users_lavas_Desktop_%D0%9E%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%87%D0%BD%D0%B8%D0%BA%20%D0%B2%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE_index html (3)" src="https://github.com/user-attachments/assets/a581b348-a36a-4e3e-b7a5-60996cb860eb" />
-
-(Серый цвет в самом низу - то , что не видит пользователь)
+<img width="1905" height="957" alt="Снимок экрана 2026-09-27 223637" src="https://github.com/user-attachments/assets/be5f2ba2-39c4-4d4d-a4db-a7e1363e1729" />
  
 ##Что это? 🤔
 
